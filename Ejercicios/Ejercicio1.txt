@@ -1,0 +1,47 @@
+Entrevista laboral junior usando console.log
+Hacer secuencia de 0 al 100 donde determine par e impar en cada secuencia, en los pares se tiene que encontrar cuales estan dentro de la serie fibonacci, en los impares encontrar cuales son primos, y ambos se deben almacenar en un vector
+
+
+function serieFibonacci(numero){
+  let primerNumero = 0, segundoNumero = 1, temp
+  while (segundoNumero < numero){
+    temp = primerNumero
+    primerNumero = segundoNumero
+    segundoNumero = temp + segundoNumero
+  }
+  return numero === segundoNumero || numero === 0
+}
+
+function numeroPrimo(numero){
+  if (numero <1) return false
+  if (numero <= 3) return true;
+  if (numero % 2 === 0 || numero % 3 === 0) return false;
+  for (let i = 2; i <=Math.sqrt(numero); i++){
+    if (numero %i ===0) return false
+  }
+  return true
+}
+
+
+let primosEnImpares = []
+let sonFibonacci = []
+
+for (let i=0; i<=100; i++){
+ if (i %2 ===0) {
+   if (serieFibonacci(i)){
+     sonFibonacci.push(i)
+     }
+  }
+   else {
+     if (numeroPrimo(i)){
+      primosEnImpares.push(i)
+     }
+   }
+}
+
+
+sonFibonacci.sort((primerNumero, segundoNumero) => primerNumero - segundoNumero)
+primosEnImpares.sort((primerNumero, segundoNumero) => primerNumero - segundoNumero)
+
+console.log("Los numeros Fibonnaci de la serie son:" +sonFibonacci)
+console.log("Los numeros Primos de los numeros Impares son:" +primosEnImpares)
