@@ -1,0 +1,66 @@
+//carrito de compra
+//crear una clase Producto con propiedades como nombre,precio y cantidad
+//Crear una clase CarritodeCompras que pueda agregar productos, eliminar productos y modificar productos
+//implementar un metodo para aplicar descuentos a productos especificos
+//implementar metodo para generar resumen de la compra
+
+class Producto{
+  constructor(nombre, precio, cantidad){
+    this.nombre = nombre
+    this.precio = precio
+    this.cantidad = cantidad
+  }
+}
+
+class CarritodeCompras {
+  constructor() {
+    this.productos = []
+  }
+  
+  agregarProducto(producto){
+    this.productos.push(producto)
+  }
+  
+  eliminarProducto(nombreProducto){
+    this.productos = this.productos.filter(produ => produ.nombre !== nombreProducto)
+  }
+  
+  modificarProducto(nombreProducto, nuevaCantidad){
+    const producto = this.productos.find(produ => produ.nombre === nombreProducto)
+    if (producto){
+      producto.cantidad = nuevaCantidad
+    }
+  }
+  
+  aplicarDescueto(nombreProducto, descuentoProducto){
+    const producto = this.productos.find(produ => produ.nombre === nombreProducto)
+    if (producto){
+      const descuento = (descuentoProducto / 100) * producto.precio
+      producto.precio -= descuento
+    }
+  }
+  
+  Resumen(){
+    let total = 0
+    let resumen = "sus compras:\n"
+    for (const producto of this.productos){
+      const subtotal = producto.precio * producto.cantidad
+      resumen += `${producto.nombre} (${producto.cantidad}): ${subtotal}\n`
+      total += subtotal
+    }
+    resumen += `sus gatos son: ${total}`
+    return resumen
+  }
+}
+const misCompras = new CarritodeCompras()
+const tele = new Producto("tele", 2250, 1)
+const ps5 = new Producto("ps5", 6500, 9)
+const mando = new Producto("mando ps5", 500, 2)
+
+misCompras.agregarProducto(tele)
+misCompras.agregarProducto(ps5)
+misCompras.agregarProducto(mando)
+misCompras.aplicarDescueto("tele", 20)
+misCompras.modificarProducto("ps5", 0)
+misCompras.aplicarDescueto("mando ps5", 15)
+console.log(misCompras.Resumen())
