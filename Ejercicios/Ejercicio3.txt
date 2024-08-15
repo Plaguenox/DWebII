@@ -1,0 +1,20 @@
+//Implementar la función iniciarReloj()
+//La función debe mostrar la hora actual usando window.alert()
+//La hora debe actualizarse y mostrarse cada minuto.
+//Asegúrense de que la primera alerta se muestre inmediatamente al llamar a la función.
+//Utilicen window.setTimeout() y window.setInterval() para programar las actualizaciones.
+
+function iniciarReloj() {
+  mostrarHoraActual();
+  window.setInterval(mostrarHoraActual, 60000);
+}
+function mostrarHoraActual() {
+  const ahora = new Date();
+  const hora = ahora.getHours();
+  const minutos = ahora.getMinutes();
+  const segundos = ahora.getSeconds();
+
+  const horaFormateada = `${hora}:${minutos}:${segundos}`;
+  window.alert(`Hora actual: ${horaFormateada}`);
+}
+iniciarReloj();
