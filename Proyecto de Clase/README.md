@@ -1,5 +1,3 @@
-<span style="font-size: xx-large;">🐉Plague📚</span>
-
-![logo](https://github.com/user-attachments/assets/4917f290-c6fc-4e64-80a7-73d396b05481)
-
-<span style="font-size: xx-large;">“Plague: Tu compañero de desarrollo frontend.”</span>
+<span style="font-size: xx-large;">🦋EvoluTask📚</span>
+<span style="font-size: xx-large;">“Evolutask: Tu compañero de desarrollo frontend.”</span>
+![logo](https://github.com/user-attachments/assets/c287efff-4fad-4f44-bb0b-05afc519ca02)
