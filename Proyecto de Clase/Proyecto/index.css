@@ -1,0 +1,784 @@
+.botoni, .botonr1, .botona, .botonic, .botonac, .botonr, .boton-entrar, .boton-registrarse {
+      cursor: pointer;
+}
+.blur {
+      filter: blur(5px);
+      transform: scale(0.95);
+      z-index: 1;
+      position: relative;
+}
+  
+.modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+}
+  
+.usuario {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      text-align: center;
+      background-color: transparent;
+      border-color: transparent;
+      border-radius: 44px;
+      width: 249px;
+      height: 40px;
+      outline: none;
+      font-size: 22px;
+}
+.campo-usuario {
+      width: 249px;
+      border-radius: 44px;
+      background-color: #d9f0e0;
+      border: 1px solid #4b6851;
+      box-sizing: border-box;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+}
+.contrasea{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      text-align: center;
+      background-color: transparent;
+      border-color: transparent;
+      border-radius: 44px;
+      width: 249px;
+      height: 40px;
+      outline: none;
+      font-size: 22px;
+}
+.entrar {
+      width: 92px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+}
+.boton-entrar {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 44px;
+      background-color: #7ff997;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+}
+.registrate {
+      width: 110px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+}
+.boton-registrarse {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 44px;
+      background-color: #7ff997;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+}
+.campo-usuario-parent {
+      width: 100%;
+      position: relative;
+      height: 196px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 38px;
+      text-align: center;
+      font-size: 22px;
+      color: #17331d;
+      font-family: Inter;
+}
+  
+  
+
+@media screen and (min-width: 1024px) {
+    .alexis-morales-vidaurre {
+        flex: 1;
+        position: relative;
+  }
+  .botonesnc {
+      display: none;
+  }
+  .botonic{
+      display: none;
+  }
+  .botonac{
+      display: none;
+  }
+  .footer {
+        position: absolute;
+        width: calc(100% - 38px);
+        right: 19px;
+        bottom: 0px;
+        left: 19px;
+        box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+        background-color: #55c66c;
+        border-top: 1px solid #17331d;
+        border-right: 1px solid #17331d;
+        border-left: 1px solid #17331d;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-size: 16px;
+  }
+  .organiza-tu-da {
+        align-self: stretch;
+        position: relative;
+  }
+  .botonr {
+        width: 125px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 18px;
+        font-family: Inder;
+  }
+  .card1 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 18px;
+  }
+  .code-1-icon {
+        flex: 1;
+        position: relative;
+        border-radius: 15px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 331px;
+        object-fit: cover;
+  }
+  .cardr {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+  }
+  .portadaa-1-icon {
+        flex: 1;
+        position: relative;
+        border-radius: 15px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 191px;
+        object-fit: cover;
+  }
+  .monitorea-tu-progreso {
+        margin: 0;
+  }
+  .card2 {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .cards {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 28px;
+        font-family: 'Akaya Telivigala';
+  }
+  .carton {
+        position: absolute;
+        width: calc(100% - 193px);
+        top: 147px;
+        right: 96px;
+        left: 97px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 175px;
+        text-align: left;
+        font-family: 'Akaya Kanadaka';
+  }
+  .logo-2-icon {
+        width: 77px;
+        position: relative;
+        height: 76px;
+        object-fit: cover;
+  }
+  .evolutasks {
+        position: relative;
+        text-shadow: 0.5px 0 0 #7ff997, 0 0.5px 0 #7ff997, -0.5px 0 0 #7ff997, 0 -0.5px 0 #7ff997;
+  }
+  .evolutasks-wrapper {
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+  }
+  .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+  }
+  .iniciar-sesin {
+        position: relative;
+  }
+  .botoni {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .botonr1 {
+        width: 125px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+  }
+  .vector-icon {
+        width: 28.7px;
+        position: relative;
+        height: 27.7px;
+  }
+  .botona {
+        width: 35px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        background-color: #7ff997;
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+  }
+  .botonesn {
+        height: 39px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 39px;
+        font-size: 18px;
+        font-family: Inder;
+  }
+  .navbar {
+        position: absolute;
+        width: calc(100% - 40px);
+        top: 20px;
+        right: 20px;
+        left: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Just Me Again Down Here';
+  }
+  .inicio {
+        width: 100%;
+        position: relative;
+        background-color: #d9f0e0;
+        height: 1024px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 30px;
+        color: #17331d;
+        font-family: Inter;
+  }
+    
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .alexis-morales-vidaurre {
+        flex: 1;
+        position: relative;
+  }
+      .botonesnc {
+      display: none;
+      }
+      .botonic{
+      display: none;
+      }
+      .botonac{
+      display: none;
+      }
+  .footer {
+        position: absolute;
+        width: calc(100% - 38px);
+        right: 19px;
+        bottom: 0px;
+        left: 19px;
+        box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+        background-color: #55c66c;
+        border-top: 1px solid #17331d;
+        border-right: 1px solid #17331d;
+        border-left: 1px solid #17331d;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-size: 16px;
+  }
+  .organiza-tu-da {
+        align-self: stretch;
+        position: relative;
+  }
+  .botonr {
+        width: 125px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 18px;
+        font-family: Inder;
+  }
+  .card1 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 18px;
+  }
+  .code-1-icon {
+        flex: 1;
+        position: relative;
+        border-radius: 15px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 331px;
+        object-fit: cover;
+  }
+  .cardr {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+  }
+  .portadaa-1-icon {
+        flex: 1;
+        position: relative;
+        border-radius: 15px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 191px;
+        object-fit: cover;
+  }
+  .monitorea-tu-progreso {
+        margin: 0;
+  }
+  .card2 {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .cards {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 22px;
+        font-family: 'Akaya Telivigala';
+  }
+  .carton {
+        position: absolute;
+        width: calc(100% - 191px);
+        top: 199px;
+        right: 96px;
+        left: 95px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 265px;
+        text-align: left;
+        font-size: 22px;
+        font-family: 'Akaya Kanadaka';
+  }
+  .logo-2-icon {
+        width: 77px;
+        position: relative;
+        height: 76px;
+        object-fit: cover;
+  }
+  .evolutasks {
+        position: relative;
+        text-shadow: 0.5px 0 0 #7ff997, 0 0.5px 0 #7ff997, -0.5px 0 0 #7ff997, 0 -0.5px 0 #7ff997;
+  }
+  .evolutasks-wrapper {
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+  }
+  .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+  }
+  .iniciar-sesin {
+        position: relative;
+  }
+  .botoni {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .botonr1 {
+      width: 125px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 25px;
+      background-color: #7ff997;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  .vector-icon {
+        width: 28.7px;
+        position: relative;
+        height: 27.7px;
+  }
+  .botona {
+        width: 35px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        background-color: #7ff997;
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+  }
+  .botonesn {
+        height: 39px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 39px;
+        font-size: 18px;
+        font-family: Inder;
+  }
+  .navbar {
+        position: absolute;
+        top: 20px;
+        left: calc(50% - 492px);
+        width: 984px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Just Me Again Down Here';
+  }
+  .inicio {
+        width: 100%;
+        position: relative;
+        background-color: #d9f0e0;
+        height: 1366px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 30px;
+        color: #17331d;
+        font-family: Inter;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 599px) {
+    .alexis-morales-vidaurre {
+        flex: 1;
+        position: relative;
+  }
+  .botonesn {
+      display: none;
+  }
+  .botoni{
+      display: none;
+  }
+  .botona{
+      display: none;
+  }
+  .botonr1{
+      display: none;
+  }
+  .footer {
+        position: absolute;
+        bottom: 0px;
+        left: calc(50% - 206px);
+        box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+        background-color: #55c66c;
+        border-top: 1px solid #17331d;
+        border-right: 1px solid #17331d;
+        border-left: 1px solid #17331d;
+        box-sizing: border-box;
+        width: 412px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .organiza-tu-da {
+        align-self: stretch;
+        position: relative;
+  }
+  .botonr {
+        width: 125px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: Inder;
+  }
+  .card1 {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+  }
+  .code-1-icon {
+        align-self: stretch;
+        position: relative;
+        border-radius: 15px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 240px;
+        flex-shrink: 0;
+        object-fit: cover;
+  }
+  .cardr {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+  }
+  .portadaa-1-icon {
+        flex: 1;
+        position: relative;
+        border-radius: 15px;
+        max-width: 100%;
+        overflow: hidden;
+        height: 111px;
+        object-fit: cover;
+  }
+  .monitorea-tu-progreso {
+        margin: 0;
+  }
+  .card2 {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .cards {
+        align-self: stretch;
+        height: 217px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        font-size: 13px;
+        font-family: 'Akaya Telivigala';
+  }
+  .carton {
+        position: absolute;
+        width: calc(100% - 22px);
+        top: 115px;
+        right: 10px;
+        left: 12px;
+        height: 739px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        text-align: left;
+        font-size: 18px;
+        font-family: 'Akaya Kanadaka';
+  }
+  .logo-2-icon {
+        width: 77px;
+        position: relative;
+        height: 76px;
+        object-fit: cover;
+  }
+  .evolutasks {
+        position: relative;
+        text-shadow: 0.5px 0 0 #7ff997, 0 0.5px 0 #7ff997, -0.5px 0 0 #7ff997, 0 -0.5px 0 #7ff997;
+  }
+  .evolutasks-wrapper {
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+  }
+  .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+  }
+  .vector-icon {
+        width: 33.4px;
+        position: relative;
+        height: 34.8px;
+  }
+  .botonic {
+        border-radius: 30px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        display: flex;
+  }
+  .vector-icon1 {
+        width: 41.8px;
+        position: relative;
+        height: 26.1px;
+  }
+  .botonac {
+        width: 61.8px;
+        border-radius: 24px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+  }
+  .botonesnc {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 40px;
+        display: flex;
+  }
+  .navbar {
+        position: absolute;
+        width: calc(100% - 19.8px);
+        top: 11px;
+        right: 9.8px;
+        left: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 30px;
+        font-family: 'Just Me Again Down Here';
+  }
+  .inicio {
+        width: 100%;
+        position: relative;
+        background-color: #d9f0e0;
+        height: 932px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 16px;
+        color: #17331d;
+        font-family: Inter;
+  }
+  
+}

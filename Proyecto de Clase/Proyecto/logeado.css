@@ -1,0 +1,568 @@
+.botoncs, .botona, .botonb, .botonesn, .sidebotontareas, .sidebotonaprende{
+    cursor: pointer;
+}
+.aprendizaje-wrapper,.compras-wrapper,.ocio-wrapper,.proyectos-wrapper,.hogar-wrapper,.mascotas-wrapper{
+      cursor: pointer;
+}
+.oig2-1-icon{
+      cursor: pointer;
+}
+
+@media screen and (min-width: 1024px){
+    .alexis-morales-vidaurre {
+        flex: 1;
+        position: relative;
+  }
+  .footer {
+        position: absolute;
+        width: calc(100% - 38px);
+        right: 19px;
+        bottom: 0px;
+        left: 19px;
+        box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px 30px 0px 0px;
+        background-color: #55c66c;
+        border-top: 1px solid #17331d;
+        border-right: 1px solid #17331d;
+        border-left: 1px solid #17331d;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-size: 16px;
+  }
+  .logo-2-icon {
+        width: 77px;
+        position: relative;
+        height: 76px;
+        object-fit: cover;
+  }
+  .evolutasks {
+        position: relative;
+        text-shadow: 0.5px 0 0 #7ff997, 0 0.5px 0 #7ff997, -0.5px 0 0 #7ff997, 0 -0.5px 0 #7ff997;
+  }
+  .evolutasks-wrapper {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+  }
+  .campo-busqueda {
+        width: 249px;
+        border-radius: 44px;
+        background-color: #d9f0d8;
+        border: 1px solid #4b6851;
+        box-sizing: border-box;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .botonb {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 18px;
+        font-family: Inder;
+  }
+  .busqueda {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 22px;
+        font-family: Inter;
+  }
+  .cerrar-sesion {
+        position: relative;
+  }
+  .botoncs {
+        width: 135px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+  }
+  .vector-icon {
+        width: 28.7px;
+        position: relative;
+        height: 27.7px;
+  }
+  .botona {
+        width: 35px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        background-color: #7ff997;
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+  }
+  .botonesn {
+        height: 39px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 39px;
+        font-size: 18px;
+        font-family: Inder;
+  }
+  .navbar {
+    position: absolute;
+    width: calc(100% - 40px);
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Just Me Again Down Here';
+  }
+  .cuaderno-removebg-preview-2-icon {
+        width: 76px;
+        position: relative;
+        height: 67px;
+        object-fit: cover;
+  }
+  .tareas {
+    width: auto;
+    height: 215px;
+    position: relative;
+    writing-mode: vertical-rl;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+  .sidebotontareas {
+        align-self: stretch;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 38px;
+        background-color: #7ff997;
+        border: 1px solid #17331d;
+        box-sizing: border-box;
+        height: 315px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+  }
+  .sidebotonaprende {
+    align-self: stretch;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+    background-color: #7ff997;
+    border: 1px solid #17331d;
+    box-sizing: border-box;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+  .icon {
+        width: 60px;
+        position: relative;
+        height: 60px;
+        object-fit: cover;
+  }
+  .aprende {
+    width: auto;
+    height: 215px;
+    position: relative;
+    writing-mode: vertical-rl;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .sidebotones {
+        position: absolute;
+        top: 206px;
+        left: 30px;
+        width: 119px;
+        height: 730px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+  }
+  .tus-tareas-de {
+        flex: 1;
+        position: relative;
+        text-shadow: 0.5px 0 0 #55c66c, 0 0.5px 0 #55c66c, -0.5px 0 0 #55c66c, 0 -0.5px 0 #55c66c;
+  }
+  .titular {
+        position: absolute;
+        top: 146px;
+        left: 558.5px;
+        width: 333px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+        font-family: Inder;
+  }
+  .oig2-1-icon {
+        position: relative;
+        top: 0px;
+        left: 90px;
+        border-radius: 36px;
+        width: 320px;
+        height: 310px;
+        object-fit: cover;
+  }
+  .ocio1 {
+        position: relative;
+        letter-spacing: 0.09em;
+  }
+  .ocio-wrapper {
+        position: absolute;
+        top: calc(50% - 29px);
+        left: calc(75% - 49px);
+        border-radius: 33px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .ocio {
+        width: 390px;
+        position: relative;
+        height: 310px;
+  }
+  .compras-wrapper {
+        position: absolute;
+        top: calc(50% - 29px);
+        left: calc(75% - 87px);
+        border-radius: 33px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .proyectos-wrapper {
+        position: absolute;
+        top: calc(50% - 29px);
+        left: calc(75% - 97.5px);
+        border-radius: 33px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .super {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+  }
+  .hogar-wrapper {
+        position: absolute;
+        top: calc(50% - 29px);
+        left: calc(75% - 62px);
+        border-radius: 33px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .aprendizaje-wrapper {
+        position: absolute;
+        top: calc(50% - 29px);
+        left: calc(75% - 114px);
+        border-radius: 33px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .mascotas-wrapper {
+        position: absolute;
+        top: calc(50% - 29px);
+        left: calc(75% - 93.5px);
+        border-radius: 33px;
+        background-color: #7ff997;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+  }
+  .actividades {
+        position: absolute;
+        top: 210px;
+        left: 150px;
+        width: 1086px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 104px;
+  }
+  .logeado {
+        width: 100%;
+        position: relative;
+        background-color: #d9f0e0;
+        height: 1024px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 32px;
+        color: #17331d;
+        font-family: Inter;
+  }
+  
+  .busqueda-input{
+      outline: none;
+      text-align: center;
+      width: 249px;
+      height: 30px;
+      background-color: transparent;
+      border: transparent;
+  }
+  .sidebar {
+      position: absolute;
+      left: -250px;
+      top: 206px;
+      width: 250px;
+      height: 330px;
+      background-color: #7ff997;
+      transition: left 0.3s ease;
+      overflow-x: hidden;
+      z-index: 1000;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: center;
+      border-radius: 30px;
+  }
+  
+  .sidebar-content {
+      margin-top: 50px;
+      padding: 20px;
+      color: #17331d;
+  }
+  
+  .sidebar .section {
+      padding: 8px 10px;
+      margin: 8px 0;
+      cursor: pointer;
+      background-color: #55c66c;
+      border-radius: 18px;
+      color: #17331d;
+      transition: background-color 0.3s ease;
+  }
+  
+  .sidebar .section:hover {
+      background-color: #48a55b;
+  }
+
+.actividades .super .ocio {
+      display: block;
+  }
+  
+  .actividades .super .ocio.hidden {
+      display: none;
+  }
+  .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000; /* Asegúrate de que está encima de otros elementos */
+  }
+  
+  .modal-content {
+      position: relative;
+      background-color: #d9f0e0;
+      padding: 20px;
+      width: 80%;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+  }
+  
+  #taskInput {
+      width: 90%;
+      height: 80px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: #bdd4c1;
+  }
+  
+  #addTaskButton {
+      padding: 10px 20px;
+      background-color: #7ff997;
+      border: none;
+      border-radius: 20px;
+      color: #17331d;
+      font-size: 16px;
+      cursor: pointer;
+      font-size: 20px;
+  }
+  
+  #addTaskButton:hover {
+      background-color: #55c66c;
+  }
+  
+  #closeModal {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+  }
+  #taskList {
+      margin-top: 20px;
+  }
+  
+  .task-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item.completed {
+      text-decoration: line-through;
+      color: #aaa;
+  }
+  
+  .task-item button {
+      margin-left: 5px;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  .task-item .edit-btn {
+      background-color: #f0ad4e;
+      color: white;
+  }
+  
+  .task-item .delete-btn {
+      background-color: #d9534f;
+      color: white;
+  }
+  
+  .task-item .complete-btn {
+      background-color: #5bc0de;
+      color: white;
+  }
+  
+.modal2 {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+  }
+  
+  .modal2-content {
+      background-color: #d9f0e0;
+      padding: 20px;
+      border-radius: 20px;
+      width: 80%;
+      max-width: 600px;
+      text-align: center;
+      position: relative;
+      font-size: 20px;
+      border-color: #17331d;
+  }
+  
+  .close-modal2 {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+  }
+  
+  .modal-button {
+      background-color: #55c66c;
+      color: #17331d;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      font-size: 22px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .modal-button:hover {
+      background-color: #48a55b;
+  }
+  
+  .suggestions {
+      margin-top: 20px;
+  }
+  
+}
+
+  

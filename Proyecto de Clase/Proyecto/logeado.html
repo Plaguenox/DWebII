@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet"  href="logeado.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Just Me Again Down Here:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap" />
+</head>
+<body>
+    <div class="logeado">
+        <div class="footer">
+            <div class="alexis-morales-vidaurre">© 2024 Alexis Morales Vidaurre. Todos los derechos reservados.</div>
+        </div>
+        
+        <div class="navbar">
+            <div class="logo">
+                <img class="logo-2-icon" alt="" src="recursos/logo.png">
+                <div class="evolutasks-wrapper">
+                    <div class="evolutasks">EvoluTasks</div>
+                </div>
+            </div>
+            <div class="busqueda">
+                <div class="campo-busqueda">
+                    <input type="text" class="busqueda-input" placeholder="Buscar...">
+                </div>
+                <div class="botonb">
+                    <div class="buscar">Buscar</div>
+                </div>
+                <div id="tasklist"></div>
+            </div>
+            <div class="botonesn">
+                <div class="botoncs">
+                    <div class="cerrar-sesion">Cerrar Sesión</div>
+                </div>
+                <div class="botona">
+                    <img class="vector-icon" alt="" src="recursos/ajustes.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-content" id="sidebarContent">
+                <div class="section" id="hoy">Hoy</div>
+                <div class="section" id="manana">Mañana</div>
+                <div class="section" id="semana">Semana</div>
+            </div>
+        </div>
+
+        <div class="sidebotones">
+            <div class="sidebotontareas" id="toggleSidebar">
+                <img class="cuaderno-removebg-preview-2-icon" alt="" src="recursos/tareas.png">
+                <div class="tareas">TAREAS</div>
+            </div>
+            <div class="sidebotonaprende">
+                <img class="icon" alt="" src="recursos/aprende.png">
+                <div class="aprende">APRENDE</div>
+            </div>
+        </div>
+
+        <div class="titular">
+            <div class="tus-tareas-de">TUS TAREAS</div>
+        </div>
+
+        <div class="actividades">
+            <div class="super">
+                <div class="ocio">
+                    <img class="oig2-1-icon" alt="" src="recursos/ocio.jpg" id="ocio">
+                    <div class="ocio-wrapper">
+                        <div class="ocio1">Ocio</div>
+                    </div>
+                </div>
+                <div class="ocio">
+                    <img class="oig2-1-icon" alt="" src="recursos/compras.jpg" id="compras">
+                    <div class="compras-wrapper">
+                        <div class="ocio1">Compras</div>
+                    </div>
+                </div>
+                <div class="ocio">
+                    <img class="oig2-1-icon" alt="" src="recursos/proyectos.jpg" id="proyectos">
+                    <div class="proyectos-wrapper">
+                        <div class="ocio1">Proyectos</div>
+                    </div>
+                </div>
+            </div>
+            <div class="super">
+                <div class="ocio">
+                    <img class="oig2-1-icon" alt="" src="recursos/hogar.jpg" id="hogar">
+                    <div class="hogar-wrapper">
+                        <div class="ocio1">Hogar</div>
+                    </div>
+                </div>
+                <div class="ocio">
+                    <img class="oig2-1-icon" alt="" src="recursos/aprendizaje.jpg" id="aprendizaje">
+                    <div class="aprendizaje-wrapper">
+                        <div class="ocio1">Aprendizaje</div>
+                    </div>
+                </div>
+                <div class="ocio">
+                    <img class="oig2-1-icon" alt="" src="recursos/mascotas.jpg" id="mascotas">
+                    <div class="mascotas-wrapper">
+                        <div class="ocio1">Mascotas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="taskModal" style="display: none;">
+            <div class="modal-content">
+                <h2 id="modalTitle">Añadir Tarea</h2>
+                <textarea id="taskInput" placeholder="Añadir nueva tarea..."></textarea>
+                <button id="addTaskButton">Añadir Tarea</button>
+                <div id="taskList"></div>
+                <span id="closeModal">&times;</span>
+            </div>
+        </div>
+        <div id="modal2" class="modal2">
+            <div class="modal2-content">
+                <span id="closeModal2" class="close-modal2">&times;</span>
+                <h2>Sugerencias para Aprender</h2>
+                <button id="htmlButton" class="modal-button">HTML</button>
+                <button id="cssButton" class="modal-button">CSS</button>
+                <button id="jsButton" class="modal-button">JavaScript</button>
+                <div id="suggestions" class="suggestions"></div>
+                <button id="saveSuggestion" class="modal-button">Guardar sugerencias</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="scripts/script.js"></script>    
+</body>
+</html>
