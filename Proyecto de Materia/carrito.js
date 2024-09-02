@@ -132,8 +132,9 @@ document.addEventListener('DOMContentLoaded', () => {
     vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
 
     confirmarPagoBtn.addEventListener('click', confirmarPago);
+    document.getElementById('close-carrito-modal').addEventListener('click', () => {
+        document.getElementById('carrito-modal').style.display = 'none';
+    });
 });
 
-document.getElementById('close-carrito-modal').addEventListener('click', () => {
-    document.getElementById('carrito-modal').style.display = 'none';
-});
+
