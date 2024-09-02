@@ -4,50 +4,56 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1, width=device-width">
-
+	<link rel="stylesheet" href="styles/Opciones.css">
 	<link rel="stylesheet" href="styles\inicio.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap" />
 
-
-
+	<title>Inicio</title>
 </head>
 
 <body>
 
 	<div class="inicio">
 		<div class="footer">
-			<div class="pie-de-pagina">Pie de pagina</div>
+			<div class="pie-de-pagina">
+				<p>&copy; 2024 Mascotopia. Todos los derechos reservados.</p>
+			</div>
 		</div>
 		<div class="body">
 			<div class="ofertas-en-productos">Ofertas en Productos</div>
-			<div class="imagenesofertas">
-				<div class="imagenoferta">
-					<img class="f-785532710-xjm6mfeavylww9ddvs-icon" alt="" src="recursos\oferta1.webp">
-
+			<div class="carousel">
+				<div class="carousel-images">
+					<div class="carousel-image">
+						<img href="#" src="img/1.png" alt="Oferta 1">
+					</div>
+					<div class="carousel-image">
+						<img href="#" src="img/2.png" alt="Oferta 2">
+					</div>
+					<div class="carousel-image">
+						<img href="#" src="img/3.png" alt="Oferta 3">
+					</div>
+					<div class="carousel-image">
+						<img href="#" src="img/4.png" alt="Oferta 3">
+					</div>
 				</div>
-				<div class="imagenoferta2">
-					<img class="f-785532710-xjm6mfeavylww9ddvs-icon" alt="" src="recursos\oferta2.webp">
-
-				</div>
-				<div class="imagenoferta3">
-					<img class="f-785532710-xjm6mfeavylww9ddvs-icon" alt="" src="recursos\oferta3.webp">
-
-				</div>
+				<button class="carousel-button prev">&#10094;</button>
+				<button class="carousel-button next">&#10095;</button>
 			</div>
+			
 			<div class="ofertas-en-productos">Alimentos para tu mascota</div>
 			<div class="productos">
 				<div class="er-producto">
 					<div class="imagenproducto">
-						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="recursos\ali1.webp">
+						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="img/5.png">
 
 					</div>
 					<div class="infoproducto">
 						<div class="marca-wrapper">
-							<div class="pie-de-pagina">Advance</div>
+							<div class="pie-de-pagina">Kongo Gold</div>
 						</div>
 						<div class="nombre-producto-wrapper">
-							<div class="pie-de-pagina">Pienso Gato</div>
+							<div class="pie-de-pagina">Alimento para perros adultos</div>
 						</div>
 					</div>
 					<div class="pesoproducto">
@@ -55,12 +61,12 @@
 							<button class="kg" data-id="1" data-peso="1">1 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<button class="kg" data-id="1" data-peso="5">5 Kg</button>
+							<button class="kg" data-id="1" data-peso="1">5 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<button class="kg" data-id="1" data-peso="10">10 Kg</button>
+							<button class="kg" data-id="1" data-peso="1">10 Kg</button>
 						</div>
-					</div>					
+					</div>
 					<div class="precioproducto">
 						<div class="pie-de-pagina">100bs</div>
 					</div>
@@ -77,21 +83,22 @@
 							</div>
 						</div>
 						<div class="comprar-wrapper" id="comprar-1">
-							<button class="comprar" data-id="1" data-nombre="Nombre Producto" data-precio="Precio">Comprar</button>
+							<button class="comprar" data-id="1" data-nombre="Pienso Gato"
+								data-precio="100bs">Comprar</button>
 						</div>
 					</div>
 				</div>
 				<div class="er-producto2">
 					<div class="imagenproducto">
-						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="recursos\ali2.webp">
+						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="img/6.webp">
 
 					</div>
 					<div class="infoproducto">
 						<div class="marca-wrapper">
-							<div class="pie-de-pagina">Nath</div>
+							<div class="pie-de-pagina">Pro Plan</div>
 						</div>
 						<div class="nombre-producto-wrapper">
-							<div class="pie-de-pagina">Pienso Gato Humedo</div>
+							<div class="pie-de-pagina">Alimento para perros chacorros</div>
 						</div>
 					</div>
 					<div class="pesoproducto">
@@ -105,7 +112,7 @@
 							<button class="kg" data-id="2" data-peso="10">10 Kg</button>
 						</div>
 					</div>
-					
+
 					<div class="precioproducto">
 						<div class="pie-de-pagina">80bs</div>
 					</div>
@@ -122,21 +129,22 @@
 							</div>
 						</div>
 						<div class="comprar-wrapper" id="comprar-2">
-							<button class="comprar" data-id="2" data-nombre="Nombre Producto 2" data-precio="Precio 2">Comprar</button>
+							<button class="comprar" data-id="2" data-nombre="Pienso Gato Humedo"
+								data-precio="80bs">Comprar</button>
 						</div>
 					</div>
 				</div>
 				<div class="er-producto3">
 					<div class="imagenproducto">
-						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="recursos\ali3.webp">
+						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="img/7.webp">
 
 					</div>
 					<div class="infoproducto">
 						<div class="marca-wrapper">
-							<div class="pie-de-pagina">Wild</div>
+							<div class="pie-de-pagina">Monello</div>
 						</div>
 						<div class="nombre-producto-wrapper">
-							<div class="pie-de-pagina">Alimento Perro</div>
+							<div class="pie-de-pagina">Monello Gato Salmon Atún y Pollo</div>
 						</div>
 					</div>
 					<div class="pesoproducto">
@@ -150,7 +158,7 @@
 							<button class="kg" data-id="3" data-peso="10">10 Kg</button>
 						</div>
 					</div>
-					
+
 					<div class="precioproducto">
 						<div class="pie-de-pagina">1bs</div>
 					</div>
@@ -167,21 +175,22 @@
 							</div>
 						</div>
 						<div class="comprar-wrapper" id="comprar-3">
-							<button class="comprar" data-id="3" data-nombre="Nombre Producto 3" data-precio="Precio 3">Comprar</button>
+							<button class="comprar" data-id="3" data-nombre="Alimentos Perro"
+								data-precio="1bs">Comprar</button>
 						</div>
 					</div>
 				</div>
 				<div class="er-producto4">
 					<div class="imagenproducto">
-						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="recursos\ali4.webp">
+						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="img/8.webp">
 
 					</div>
 					<div class="infoproducto">
 						<div class="marca-wrapper">
-							<div class="pie-de-pagina">Life</div>
+							<div class="pie-de-pagina">Pro Plan</div>
 						</div>
 						<div class="nombre-producto-wrapper">
-							<div class="pie-de-pagina">Snack Ave</div>
+							<div class="pie-de-pagina">Alimento para gatos adultos castrados</div>
 						</div>
 					</div>
 					<div class="pesoproducto">
@@ -195,7 +204,7 @@
 							<button class="kg" data-id="4" data-peso="10">10 Kg</button>
 						</div>
 					</div>
-					
+
 					<div class="precioproducto">
 						<div class="pie-de-pagina">500bs</div>
 					</div>
@@ -212,21 +221,22 @@
 							</div>
 						</div>
 						<div class="comprar-wrapper" id="comprar-4">
-							<button class="comprar" data-id="4" data-nombre="Nombre Producto 4" data-precio="Precio 4">Comprar</button>
+							<button class="comprar" data-id="4" data-nombre="Snack Ave"
+								data-precio="500bs">Comprar</button>
 						</div>
 					</div>
 				</div>
 				<div class="er-producto5">
 					<div class="imagenproducto">
-						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="recursos\ali5.webp">
+						<img class="f-785532710-xjm6mfeavylww9ddvs-icon3" alt="" src="img/9.jpeg">
 
 					</div>
 					<div class="infoproducto">
 						<div class="marca-wrapper">
-							<div class="pie-de-pagina">Plasti</div>
+							<div class="pie-de-pagina">Royal Canin</div>
 						</div>
 						<div class="nombre-producto-wrapper">
-							<div class="pie-de-pagina">Contenedor Alimento</div>
+							<div class="pie-de-pagina">Alimento para perros adultos castrados</div>
 						</div>
 					</div>
 					<div class="pesoproducto">
@@ -240,7 +250,7 @@
 							<button class="kg" data-id="5" data-peso="10">10 Kg</button>
 						</div>
 					</div>
-					
+
 					<div class="precioproducto">
 						<div class="pie-de-pagina">99999bs</div>
 					</div>
@@ -257,7 +267,8 @@
 							</div>
 						</div>
 						<div class="comprar-wrapper" id="comprar-5">
-							<button class="comprar" data-id="5" data-nombre="Nombre Producto 5" data-precio="Precio 5">Comprar</button>
+							<button class="comprar" data-id="5" data-nombre="Contenedor Alimento"
+								data-precio="99999bs">Comprar</button>
 						</div>
 					</div>
 				</div>
@@ -269,8 +280,14 @@
 					<div class="alimentos">Alimentos</div>
 				</div>
 				<div class="iconodesplegable">
-					<img class="desplegable-icon" alt="" src="svg/flecha.svg">
-
+					<button class="desplegable-boton" onclick="toggleMenu('menu-alimentos')">▼</button>
+					<ul id="menu-alimentos" class="desplegable-menu">
+						<li><a href="#">Alimentos secos</a></li>
+						<li><a href="#">Alimento húmedo</a></li>
+						<li><a href="#">Bocaditos</a></li>
+						<li><a href="#">Huesos y carnazas</a></li>
+						<li><a href="#">Galletas</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="desplegableaccesorios">
@@ -278,8 +295,13 @@
 					<div class="alimentos">Accesorios</div>
 				</div>
 				<div class="iconodesplegable">
-					<img class="desplegable-icon" alt="" src="svg/flecha.svg">
-
+					<button class="desplegable-boton" onclick="toggleMenu('menu-accesorios')">▼</button>
+					<ul id="menu-accesorios" class="desplegable-menu">
+						<li><a href="#">Comederos</a></li>
+						<li><a href="#">Bebederos</a></li>
+						<li><a href="#">Ropa</a></li>
+						<li><a href="#">Comodidad</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="desplegablejuguetes">
@@ -287,8 +309,13 @@
 					<div class="alimentos">Juguetes</div>
 				</div>
 				<div class="iconodesplegable">
-					<img class="desplegable-icon" alt="" src="svg/flecha.svg">
-
+					<button class="desplegable-boton" onclick="toggleMenu('menu-juguetes')">▼</button>
+					<ul id="menu-juguetes" class="desplegable-menu">
+						<li><a href="#">Mordederos</a></li>
+						<li><a href="#">Pelotas</a></li>
+						<li><a href="#">Peluches</a></li>
+						<li><a href="#">Sogas</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="desplegableotros">
@@ -296,11 +323,19 @@
 					<div class="alimentos">Otros</div>
 				</div>
 				<div class="iconodesplegable">
-					<img class="desplegable-icon" alt="" src="svg/flecha.svg">
-
+					<button class="desplegable-boton" onclick="toggleMenu('menu-otros')">▼</button>
+					<ul id="menu-otros" class="desplegable-menu">
+						<li><a href="#">Placas</a></li>
+						<li><a href="#">Cepillos</a></li>
+						<li><a href="#">Correas</a></li>
+						<li><a href="#">Arneses</a></li>
+						<li><a href="#">Bozales</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
+		
+
 		<div class="navbar">
 			<div class="nombrepagina">
 				<div class="mascotopia">Mascotopia</div>
@@ -321,7 +356,7 @@
 						<img class="cuenta-icon" alt="" src="svg/cuenta.svg">
 
 					</div>
-					<div class="botoncarrito" id="botoncarrito">
+					<div class="botoncarrito">
 						<img class="carrito-icon" alt="" src="svg/carrito.svg">
 
 					</div>
@@ -395,12 +430,12 @@
 					<label for="login-password">Contraseña:</label>
 					<input type="password" id="login-password" required>
 	
-					<button type="submit" class="modal-button">Entrar</button>
+					<button type="submit" class="modal-button" id="entrarBtn">Entrar</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="modal-overlay" id="carrito-modal">
 		<div class="modal-content">
 			<button class="close-modal" id="close-carrito-modal">
@@ -417,11 +452,12 @@
 			</div>
 		</div>
 	</div>
-	
-	
 
 </body>
+<script src="scripts/Opciones.js"></script>
 <script src="scripts/modal.js"></script>
-<script src="scripts/carrito.js"></script>
-
+<script src="scripts\carrito.js"></script>
+<script src="scripts/irACuenta.js"></script>
+<script src="scripts/inicioS.js"></script>
+<script src="scripts/carrusel.js"></script>
 </html>
